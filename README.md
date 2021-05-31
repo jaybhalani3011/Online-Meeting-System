@@ -4,7 +4,7 @@ Simple Web Application that offer you to create video meeting room using WebRTC 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
@@ -15,9 +15,9 @@ You have to install [Node.js](https://nodejs.org/en/) in your machine.
 After installing node clone the repo by using git
 
 ```
-git clone https://github.com/50UM3N/video-chat.git
+https://github.com/jaybhalani3011/Online-Meeting-System.git
                         or
-git clone git@github.com:50UM3N/video-chat.git
+git@github.com:jaybhalani3011/Online-Meeting-System.git
 ```
 
 Or you can download the zip file.
@@ -42,20 +42,20 @@ For the database I use [mongodb](https://www.mongodb.com/) [Atlas](https://www.m
 
 If you don't have any account in [Atlas](https://www.mongodb.com/cloud/atlas). Visit the page and create a free account then get your connection string. More at [Documentation](https://docs.atlas.mongodb.com/tutorial/create-new-cluster/).
 
-Rename the file .env_sample to .env then replace "connection string" to your connection string
+Use the file .env then replace "connection string" to your personal connection string
 
 Example
 
 ```
-MONGO_URL=mongodb+srv://dbUser:<password>@cluster0.kfx8y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+DB_URI=mongodb+srv://omsdb:<password>@cluster0.kxj0d.mongodb.net/omsdb?retryWrites=true&w=majority
 ```
 
 ## Running the App
 
-If you install nodemon the you can use. (devStart script is already added to the package.json)
+If you install nodemon then you can use. (dev script is already added to the package.json)
 
 ```
-npm run devStart
+npm run dev
 ```
 
 or
@@ -64,16 +64,6 @@ or
 node server.js
 ```
 
-## Preview
-
-<img src="preview/preview.gif" alt="preview image">
-
-## Live Demo
-
-For deploy the project I use [heroku](https://heroku.com)
-
-[Video Chat](https://soumen-video-calling-app.herokuapp.com/)
-
 ## Built With
 
 - [Node Js](https://nodejs.org/en/) - The Backend
@@ -81,7 +71,6 @@ For deploy the project I use [heroku](https://heroku.com)
 - [SocketIo](https://socket.io/) - For realtime communication
 - [NPM](https://www.npmjs.com/) - Dependency Management
 - [GIT](https://git-scm.com/) - Used for version control
-- [Heroku](https://heroku.com) - Used to Deploy Node.js applications
 
 ## License
 
