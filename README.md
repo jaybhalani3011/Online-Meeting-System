@@ -15,9 +15,10 @@ You have to install [Node.js](https://nodejs.org/en/) in your machine.
 After installing node clone the repo by using git
 
 ```
-https://github.com/jaybhalani3011/Online-Meeting-System.git
+git clone https://github.com/jaybhalani3011/Online-Meeting-System.git
                         or
-git@github.com:jaybhalani3011/Online-Meeting-System.git
+git clone git@github.com:jaybhalani3011/Online-Meeting-System.git
+
 ```
 
 Or you can download the zip file.
