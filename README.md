@@ -1,4 +1,4 @@
-# WebRTC Video Chat
+# WebRTC Online Meeting System
 
 Simple Web Application that offer you to create video meeting room using WebRTC and Socket
 
